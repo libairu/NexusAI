@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  /* ========== Radius (fixed across themes) ========== */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* ========== Spacing (fixed across themes) ========== */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  /* ========== Theme Colors (use CSS variables for dark/light) ========== */
+  --color-bg-base: var(--nexus-bg-base);
+  --color-bg-surface: var(--nexus-bg-surface);
+  --color-bg-card: var(--nexus-bg-card);
+  --color-bg-elevated: var(--nexus-bg-elevated);
+  --color-bg-accent-cyan: var(--nexus-bg-accent-cyan);
+  --color-bg-accent-purple: var(--nexus-bg-accent-purple);
+  --color-bg-accent-green: var(--nexus-bg-accent-green);
+  --color-accent-cyan: var(--nexus-accent-cyan);
+  --color-accent-purple: var(--nexus-accent-purple);
+  --color-accent-green: var(--nexus-accent-green);
+  --color-accent-cyan-text: var(--nexus-accent-cyan-text);
+  --color-accent-purple-text: var(--nexus-accent-purple-text);
+  --color-accent-green-text: var(--nexus-accent-green-text);
+  --color-text-primary: var(--nexus-text-primary);
+  --color-text-secondary: var(--nexus-text-secondary);
+  --color-text-muted: var(--nexus-text-muted);
+  --color-border-subtle: var(--nexus-border-subtle);
+}
+
+/* ========== Dark Theme (default) ========== */
+:root, .dark {
+  --nexus-bg-base: #0A0D17;
+  --nexus-bg-surface: #121724;
+  --nexus-bg-card: #171C2E;
+  --nexus-bg-elevated: #1F2638;
+  --nexus-bg-accent-cyan: #0D2633;
+  --nexus-bg-accent-purple: #1F1438;
+  --nexus-bg-accent-green: #0F2E1F;
+  --nexus-accent-cyan: #33C7EB;
+  --nexus-accent-purple: #946BE6;
+  --nexus-accent-green: #40D194;
+  --nexus-accent-cyan-text: #66D9F2;
+  --nexus-accent-purple-text: #B894FA;
+  --nexus-accent-green-text: #66E0A6;
+  --nexus-text-primary: #EBF0FA;
+  --nexus-text-secondary: #ADB8D1;
+  --nexus-text-muted: #808CA6;
+  --nexus-border-subtle: #2E3852;
+}
+
+/* ========== Light Theme ========== */
+.light {
+  --nexus-bg-base: #F7F7FA;
+  --nexus-bg-surface: #FFFFFF;
+  --nexus-bg-card: #FAFAFE;
+  --nexus-bg-elevated: #F2F2F8;
+  --nexus-bg-accent-cyan: #E6F8FC;
+  --nexus-bg-accent-purple: #F2EAFF;
+  --nexus-bg-accent-green: #EBFAF2;
+  --nexus-accent-cyan: #0D8CAE;
+  --nexus-accent-purple: #612EB8;
+  --nexus-accent-green: #148C5A;
+  --nexus-accent-cyan-text: #0A7394;
+  --nexus-accent-purple-text: #521F9E;
+  --nexus-accent-green-text: #0F7347;
+  --nexus-text-primary: #12121A;
+  --nexus-text-secondary: #5A5E73;
+  --nexus-text-muted: #8C94A6;
+  --nexus-border-subtle: #E0E3EB;
+}
+
+body {
+  background: var(--nexus-bg-base);
+  color: var(--nexus-text-primary);
+  transition: background 0.3s ease, color 0.3s ease;
+}
