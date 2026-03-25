@@ -88,11 +88,12 @@ npm start
 
 > 完整 24 个 Token 定义见 [`app/globals.css`](app/globals.css)
 
-## 🎬 设计稿生成过程
+## 🎬 ardot 设计稿
 
-CodeBuddy 通过 Ardot MCP 在画布上实时生成设计稿的完整过程录屏：
+CodeBuddy 通过 Ardot MCP 在画布上实时生成的设计稿：
 
-https://github.com/user-attachments/assets/ardot-design.mp4
+![ardot 设计稿全貌](design2.png)
+![组件库细节](design3.png)
 
 ## 🔗 相关链接
 
