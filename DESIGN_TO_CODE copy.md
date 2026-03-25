@@ -234,7 +234,11 @@ NexusAI/                          # Next.js 15 + Tailwind v4
 
 ## 六、效果展示
 
-### 6.1 ardot 设计稿
+### 6.1 ardot 设计稿生成过程
+
+CodeBuddy 通过 Ardot MCP 在画布上实时生成设计稿的完整过程录屏：
+
+https://github.com/user-attachments/assets/ardot-design.mp4
 
 设计稿在线地址：https://ardot.tencent.com/file/664524072087754
 
