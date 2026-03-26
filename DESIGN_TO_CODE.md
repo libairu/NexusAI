@@ -8,6 +8,8 @@
 
 本文记录了一次完整的 **Design-to-Code** 全链路实践：通过 **CodeBuddy**（腾讯 AI 编程助手）连接 **Ardot MCP**，让 AI 全程驱动 -- 从生成设计稿到输出可运行的 Next.js 前端项目，实现了**零手动同步**的设计开发一体化工作流。
 
+📦 **项目开源地址**：[https://github.com/libairu/NexusAI](https://github.com/libairu/NexusAI)
+
 ---
 
 ## 一、快速体验：3 分钟上手 Ardot MCP
@@ -18,13 +20,15 @@
 
 🔗 **官网地址**：[https://ardot.tencent.com](https://ardot.tencent.com)
 
+![Ardot 官网首页](ardot-home.png)
+
 > Ardot 同时支持 **macOS 桌面端** 和 **Web 端**（PC 浏览器），选择任一方式即可开始体验。
 
 ### 1.2 配置 MCP 服务
 
 在 Ardot 中打开 **MCP 集成** 面板，可以看到支持多种 AI 终端的一键连接：
 
-![Ardot MCP 集成面板](mcp-settings.png)
+![Ardot MCP 集成面板](mcp-settings.png)![alt text](ardot-qr.png)
 
 **支持的 AI 终端**：CodeBuddy Code、CodeBuddy IDE、WorkBuddy、Claude Code、Cursor、Codex CLI、Gemini CLI、OpenCode 等。
 
@@ -340,3 +344,13 @@ cd NexusAI && npm install && npm run dev
 4. **CodeBuddy 的编排能力** -- AI 同时扮演了设计师（生成设计稿）、前端工程师（生成代码）和 QA（截图验证）三个角色
 
 这套流程实现了真正的 **AI 驱动的 Design-to-Code 全链路** -- 从 ardot 设计稿到 Tailwind CSS 到 React 组件，一条链路、一套 Token、零手动同步。未来已来，拥抱 AI。
+
+---
+
+## 加入腾讯设计 Ardot 用户群
+
+扫码加入 **腾讯设计 Ardot 用户群**，获取最新产品动态、交流使用心得、反馈问题建议：
+
+<div align="center">
+  <img src="ardot-qr.png" alt="腾讯设计 Ardot 用户群二维码" width="200" height="200" />
+</div>
