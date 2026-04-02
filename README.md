@@ -2,8 +2,8 @@
 
 一个由 **ardot MCP** 驱动的 Design-to-Code 全链路实践项目。从 AI 生成设计稿到前端代码一键打通，支持 Dark / Light 双主题。
 
-![Dark Mode](dark-mode.png)
-![Light Mode](light-mode.png)
+![Dark Mode](./dark-mode.png)
+![Light Mode](./light-mode.png)
 
 ## ✨ 特性
 
@@ -92,13 +92,13 @@ npm start
 
 CodeBuddy 通过 Ardot MCP 在画布上实时生成的设计稿：
 
-![ardot 设计稿全貌](design2.png)
-![组件库细节](design3.png)
+![ardot 设计稿全貌](./design2.png)
+![组件库细节](./design3.png)
 
 ## 🔗 相关链接
 
 - **ardot 设计稿**：[https://ardot.tencent.com/file/664524072087754](https://ardot.tencent.com/file/664524072087754)
-- **Design-to-Code 实践文档**：[DESIGN_TO_CODE_v1.md](DESIGN_TO_CODE_v1.md)
+- **Design-to-Code 实践文档**：[DESIGN_TO_CODE_v1.md](./DESIGN_TO_CODE_v1.md)
 
 ## 📄 License
 
